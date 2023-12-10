@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+ 
+}
+  
+.container {
+    width: 300px;
+    border: 1px solid rgb(141, 137, 137);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none; 
+    outline: none; 
+    background-color: rgb(197, 205, 238); 
+    margin-right: 10px;
+  }
+  
+  
+.btn{
+    padding: none;
+    width: 90px;
+    border-radius: 40px;
+    background-color: rgb(197, 205, 238); 
+    margin-left: 5px;
+}
+
+
+button:hover {
+    background-color: rgb(234, 106, 106);
+    border: none;
+    border-color: none;
+
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+
+  
+span.done {
+    text-decoration: line-through;
+  }
+  
